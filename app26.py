@@ -11,4 +11,4 @@ for i in range(len(s)):
     else:
         print(s[i] + str(cnt), end='')
         cnt = 1
-print()
+print()    
