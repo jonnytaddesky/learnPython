@@ -1,15 +1,16 @@
-rowInputFirst = int(input())
-rowInputEnd = int(input())
-columnInputFirst = int(input())
-columnInputEnd = int(input())
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
 
 print(end='\t')
-for x in range(columnInputFirst, columnInputEnd + 1):
+for x in range(c, d + 1):
     print(x, end='\t')
 print()
-for i in range(rowInputFirst, rowInputEnd + 1):
+for i in range(a, b + 1):
     print(i, end='\t')
-    for j in range(columnInputFirst, columnInputEnd + 1):
+    for j in range(c, d + 1):
+        print(end='')
         print(i * j, end='\t')
     print()
 print()
